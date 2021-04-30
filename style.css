@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #35424a;
+  display: flex;
+}
+.container{
+  background: #fff;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+}
+.form-group span{
+  margin-right: 5px;
+}
+.form-group .form-control{
+  min-height: 30px;
+  border-radius: 4px;
+  width: 100%;
+}
+.btn{
+  background: #35424a;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  min-height: 38px;
+  color: #fff;
+  text-transform: uppercase;
+}
